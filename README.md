@@ -25,5 +25,4 @@ Fitur ini menjadi media utama untuk meningkatkan literasi kesehatan masyarakat m
 Menampilkan data lengkap tentang gejala, faktor risiko, pengobatan, dan pencegahan penyakit agar pengguna dapat mengenali dan menanggapi kondisi kesehatan dengan tepat.
 
 💊 Informasi Obat & Anjuran Obat
-
 Memberikan edukasi mengenai obat, efek samping, dan aturan pakai yang benar guna mendorong penggunaan obat secara bijak dan aman.
