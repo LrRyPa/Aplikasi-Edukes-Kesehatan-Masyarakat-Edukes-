@@ -1,4 +1,4 @@
-# Aplikasi-Edukes-Kesehatan-Masyarakat-Edukes-
+# Aplikasi-Edukes-Kesehatan-Masyarakat-EduKes-
 
 ## 🩺 Deskripsi Aplikasi EduKes
 
