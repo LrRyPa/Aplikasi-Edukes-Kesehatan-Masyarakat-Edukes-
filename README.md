@@ -8,7 +8,6 @@ Aplikasi ini menyajikan berbagai data penting seperti artikel kesehatan 📰, pe
 Aplikasi ini memiliki dua peran utama, yaitu User dan Admin.
 
 👤 User dapat melihat dan mencari artikel kesehatan, menelusuri data penyakit serta obat, dan mengelola profil pribadinya.
-
 🩺 Admin memiliki hak akses untuk menambah ➕, memperbarui 🔄, dan menghapus ❌ data artikel, penyakit, serta obat untuk menjaga keakuratan informasi yang disajikan.
 
 Dengan antarmuka yang sederhana 🎨 dan fitur yang mudah digunakan ⚙️, EDUKES diharapkan dapat membantu pengguna memperoleh pengetahuan kesehatan secara cepat, akurat, dan informatif 📚.
