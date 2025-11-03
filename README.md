@@ -13,17 +13,19 @@ Aplikasi ini menyajikan berbagai data penting seperti artikel kesehatan, penyaki
 
 Dengan GUI yang sederhana dan fitur yang mudah digunakan, EDUKES diharapkan dapat membantu pengguna memperoleh pengetahuan kesehatan secara cepat, akurat, dan informatif 📚.
 
-## ⚙️ Fitur - Fitur EduKes
+## Fitur - Fitur EduKes
 
-📰 Artikel Edukasi Kesehatan
+# 📰 Artikel Edukasi Kesehatan
 
 Fitur ini menjadi media utama untuk meningkatkan literasi kesehatan masyarakat melalui artikel yang disusun
 
 
-🧬 Informasi Penyakit
+# 🧬 Informasi Penyakit
 
 Menampilkan data lengkap tentang gejala, faktor risiko, pengobatan, dan pencegahan penyakit agar pengguna dapat mengenali dan menanggapi kondisi kesehatan dengan tepat.
 
-💊 Informasi Obat & Anjuran Obat
+# 💊 Informasi Obat & Anjuran Obat
 
 Memberikan edukasi mengenai obat, efek samping, dan aturan pakai yang benar guna mendorong penggunaan obat secara bijak dan aman.
+
+## Penerapan OOP di EduKes
