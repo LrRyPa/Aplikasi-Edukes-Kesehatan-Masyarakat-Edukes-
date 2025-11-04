@@ -140,3 +140,191 @@ Setelah selesai mengelola sistem, admin keluar dari aplikasi untuk menjaga keama
 </div>
 <br>
 </details>
+
+<details>
+<summary><b>2. Halaman Login</b></summary>
+<br>
+
+<div align="center">
+
+  <img width="879" height="599" alt="Login" src="https://github.com/user-attachments/assets/fee4346a-3c95-4778-9f34-4a45eaab2509" />
+
+  <p align="center"><b><em>1.2. Halaman Login</em></b><br>
+  Halaman login digunakan untuk masuk ke sistem EDUKES menggunakan email dan password yang sudah terdaftar.  
+  Jika login berhasil, pengguna diarahkan ke halaman dashboard sesuai peran (User atau Admin).  
+  Jika gagal, sistem akan menampilkan pesan <em>“Email atau Password salah.”</em>  
+  Tombol <b>Registrasi</b> dapat digunakan untuk berpindah ke halaman pendaftaran akun baru.</p>
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>3. Dashboard User</b></summary>
+<br>
+
+<div align="center">
+
+<img width="880" height="603" alt="DashboardUser" src="https://github.com/user-attachments/assets/528a8351-c553-4684-8b7d-928a914d45fb" />
+
+ 
+  <p align="center"><b><em>1.3. Dashboard User</em></b><br>
+  Setelah pengguna berhasil login, mereka akan diarahkan ke <b>Dashboard User</b>.  
+  Halaman ini merupakan tampilan utama bagi pengguna untuk mengakses seluruh fitur aplikasi EDUKES.  
+  
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>4. Halaman Profil Pengguna</b></summary>
+<br>
+
+<div align="center">
+  
+  <img width="876" height="602" alt="Profil U" src="https://github.com/user-attachments/assets/be0345c2-8a8d-4306-84aa-bfccdcd344e3" />
+
+  
+  <p align="center"><b><em>1.4. Halaman Profil Pengguna</em></b><br>
+  Halaman ini digunakan oleh pengguna untuk melihat dan memperbarui data pribadinya.  
+  
+</div>
+<br>
+</details>
+
+details>
+<summary><b>5. Fitur Perbarui Profil</b></summary>
+<br>
+
+<div align="center">
+  
+  <img width="876" height="598" alt="Update Profil" src="https://github.com/user-attachments/assets/a14c2d42-19f1-4e41-8331-d6b2929872a4" />
+
+  <p align="center"><b><em>1.5. Fitur Perbarui Profil</em></b><br>
+  Fitur ini memungkinkan pengguna untuk memperbarui data diri mereka.  
+  Setelah tombol <b>Edit</b> ditekan, kolom data akan aktif dan pengguna dapat mengubah informasi sebelum menekan tombol <b>Simpan</b>.</p>
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>6. Halaman Artikel</b></summary>
+<br>
+
+<div align="center">
+
+<img width="877" height="587" alt="Read A" src="https://github.com/user-attachments/assets/343fe8b5-151a-457a-9e7f-3c76c8b83428" />
+
+  <p align="center"><b><em>1.5. Halaman Artikel</em></b><br>
+  Halaman ini menampilkan kumpulan artikel edukasi kesehatan yang dapat dibaca oleh pengguna.  
+ 
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>7. Fitur Pencarian Artikel</b></summary>
+<br>
+
+<div align="center">
+  
+  <img width="869" height="593" alt="Search A" src="https://github.com/user-attachments/assets/7a6fbcb1-82cf-4700-8064-d869bb2a7b3e" />
+
+
+  <p align="center"><b><em>1.7. Fitur Pencarian Artikel</em></b><br>
+  Pengguna dapat menggunakan fitur pencarian untuk menemukan artikel tertentu dengan cepat.  
+  Hasil pencarian akan menampilkan artikel yang relevan sesuai kata kunci yang dimasukkan.</p>
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>8. Halaman Penyakit</b></summary>
+<br>
+
+<div align="center">
+  
+  <img width="1143" height="603" alt="Read P" src="https://github.com/user-attachments/assets/4e5a9146-125b-40d6-b854-af3433cc551a" />
+
+  <p align="center"><b><em>1.6. Halaman Penyakit</em></b><br>
+  Halaman ini berisi informasi lengkap mengenai berbagai jenis penyakit,  
+  termasuk gejala, penyebab, dan langkah pencegahan.  
+  Tujuannya agar pengguna dapat mengenali kondisi kesehatan dengan lebih baik.</p>
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>9. Fitur Pencarian Penyakit</b></summary>
+<br>
+
+<div align="center">
+  
+ <img width="877" height="602" alt="Search P" src="https://github.com/user-attachments/assets/7d148a48-3e69-4b51-8f93-bf146a8732e2" />
+
+  <p align="center"><b><em>1.9. Fitur Pencarian Penyakit</em></b><br>
+  Pengguna dapat mencari penyakit tertentu dengan memasukkan nama penyakit ke kolom pencarian.  
+  Hasil yang ditampilkan akan sesuai dengan data penyakit yang tersedia di database.</p>
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>10. Halaman Obat</b></summary>
+<br>
+
+<div align="center">
+  
+  <img width="1012" height="390" alt="ReadO" src="https://github.com/user-attachments/assets/1e3c392f-63d9-4c37-b214-be4ffa0cdda1" />
+
+  <p align="center"><b><em>1.7. Halaman Obat</em></b><br>
+  Halaman ini memberikan informasi mengenai berbagai jenis obat dan fungsinya.  
+ 
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>11. Fitur Pencarian Obat</b></summary>
+<br>
+
+<div align="center">
+  
+ <img width="880" height="593" alt="Search O" src="https://github.com/user-attachments/assets/b3f63d0a-3e5a-44e3-9d4b-092183add187" />
+
+  <p align="center"><b><em>1.11. Fitur Pencarian Obat</em></b><br>
+  Pengguna dapat mencari obat dengan mengetikkan nama obat di kolom pencarian.  
+  Sistem akan menampilkan hasil sesuai dengan nama obat yang dicari.</p>
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>12. Halaman Anjuran Obat</b></summary>
+<br>
+
+<div align="center">
+  
+<img width="1156" height="313" alt="Read AO" src="https://github.com/user-attachments/assets/f8578e28-82e4-467f-800b-5e3dab9e52f1" />
+
+  <p align="center"><b><em>1.8. Halaman Anjuran Obat</em></b><br>
+  Halaman ini menampilkan anjuran dan rekomendasi penggunaan obat secara aman dan sesuai kondisi.  
+  Informasi yang tersedia membantu pengguna dalam memahami cara pemakaian yang benar untuk menghindari efek samping.</p>
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>13. Fitur Pencarian Anjuran Obat</b></summary>
+<br>
+
+<div align="center">
+  
+ <img width="877" height="605" alt="Search AO" src="https://github.com/user-attachments/assets/8c6505cf-ea6c-4e71-8c63-dd78b3e72a04" />
+>
+  <p align="center"><b><em>1.15. Fitur Pencarian Anjuran Obat</em></b><br>
+  Fitur ini digunakan untuk mencari anjuran obat berdasarkan nama penyakit atau jenis obat tertentu.  
+  Pengguna cukup mengetik kata kunci pada kolom pencarian, dan sistem akan menampilkan daftar anjuran obat yang sesuai.  
+  Tujuannya untuk memudahkan pengguna menemukan informasi penggunaan obat yang relevan secara cepat dan akurat.</p>
+</div>
+<br>
+</details>
