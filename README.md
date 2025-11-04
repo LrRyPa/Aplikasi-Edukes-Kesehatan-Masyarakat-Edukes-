@@ -1,4 +1,4 @@
-# Aplikasi-Edukes-Kesehatan-Masyarakat-EduKes-
+# Aplikasi Digital Edukasi Kesehatan (EDUKES)
 
 
 
