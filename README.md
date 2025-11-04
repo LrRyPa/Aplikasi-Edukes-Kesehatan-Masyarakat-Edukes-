@@ -125,27 +125,18 @@ Setelah selesai mengelola sistem, admin keluar dari aplikasi untuk menjaga keama
 ## 🖥️ Panduan & Antarmuka Pengguna (GUI)
 
 <details>
-<summary><b>1. Registrasi</b></summary>
+<summary><b>1. Halaman Registrasi</b></summary>
 <br>
 
 <div align="center">
-<img src="Regis.png" alt="Tampilan Registrasi" width="500"/>
-</div>
+  
+<img width="876" height="603" alt="Regis" src="https://github.com/user-attachments/assets/5e6129ea-25af-4907-96ab-954b9d8236eb" />
 
-<div align="center">
-Form <b>Registrasi</b> digunakan untuk membuat akun baru di aplikasi <b>EDUKES</b>.  
-Pengguna wajib mengisi seluruh data dengan benar agar dapat login ke sistem.
+  <p align="center"><b><em>1.1. Halaman Registrasi</em></b><br>
+  Halaman ini digunakan untuk membuat akun baru pengguna EDUKES.  
+  Pengguna wajib mengisi nama, alamat, email, dan password untuk mendaftar.  
+  Setelah menekan tombol <b>Kirim</b>, sistem akan menyimpan data ke database dan menampilkan pesan “Registrasi Berhasil”.  
+  Tombol <b>Kembali</b> mengarahkan pengguna ke halaman Login.</p>
 </div>
-
-<details>
-<summary><b>2. Login</b></summary>
 <br>
-
-<div align="center">
-<img src="Login.png" alt="Tampilan Login" width="500"/>
-</div>
-
-<div align="center">
-Form <b>Login</b> adalah halaman awal aplikasi <b>EDUKES</b> tempat pengguna dan admin masuk ke sistem.  
-Pengguna diminta untuk mengisi <b>Email</b> dan <b>Password</b> yang sudah terdaftar sebelumnya.
-</div>
+</details>
