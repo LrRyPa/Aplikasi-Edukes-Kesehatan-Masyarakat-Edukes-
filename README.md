@@ -39,13 +39,9 @@ Dengan tampilan yang sederhana dan fitur yang mudah digunakan, EDUKES diharapkan
 
 ## Penerapan OOP di EduKes
 
-| **Pilar OOP** | **Penerapan di EDUKES** |
-|----------------|--------------------------|
-| **Encapsulation** | Class seperti `User`, `Admin`, dan `Artikel` memiliki atribut `private` seperti `nama`, `email`, dan `password`, yang hanya dapat diakses melalui method `getter` dan `setter` untuk menjaga keamanan data pengguna. |
-| **Inheritance** | Class `Admin` dan `User` mewarisi atribut dan method dari class induk `Akun`, seperti `login()` dan `logout()`, agar struktur kode lebih efisien dan terorganisir. |
-| **Polymorphism** | Method `login()` memiliki implementasi berbeda antara `Admin` dan `User`, di mana `Admin` diarahkan ke **Dashboard Admin**, sedangkan `User` diarahkan ke **Dashboard User**. |
-| **Abstraction** | Interface `AuthInterface` mendefinisikan method abstrak seperti `login()` dan `logout()` yang wajib diimplementasikan oleh setiap class yang menangani autentikasi. |
-| **Interface** | File `AuthInterface.java` digunakan sebagai kontrak yang memastikan setiap class (seperti `Admin` dan `User`) memiliki fungsionalitas login yang konsisten dan mudah dikembangkan. |
+<details>
+<summary><b>1. Encapsulation</b></summary>
+
 
 ## Alur Program
 **a. User (Masyarakat)**
