@@ -37,48 +37,89 @@ Dengan tampilan yang sederhana dan fitur yang mudah digunakan, EDUKES diharapkan
     
       Memberikan edukasi mengenai obat, efek samping, dan aturan pakai yang benar guna mendorong penggunaan obat secara bijak dan aman.
 
-## Penerapan OOP di EduKes
+## ⚙️ Penerapan Konsep OOP di EduKes
 
 <details>
 <summary><b>1. Encapsulation</b></summary>
+<br>
 
- Class seperti User, Admin, dan Artikel memiliki atribut private seperti nama, email, dan password, yang hanya dapat diakses melalui method getter dan setter untuk menjaga keamanan data pengguna.
+<img width="700" height="744" alt="Encapsulation" src="https://github.com/user-attachments/assets/521cd676-c671-4b34-9df7-7000cd4932f3" />
 
- </details>
+<p align="justify">
+Konsep ini diterapkan pada class seperti <b>Akun</b>, <b>User</b>, dan <b>Admin</b> dengan menjadikan atribut bersifat <b>private</b> 
+dan diakses melalui <i>getter</i> dan <i>setter</i> untuk menjaga keamanan data pengguna.
+</p>
 
----
+</details>
 
 <details>
 <summary><b>2. Inheritance</b></summary>
+<br>
 
-Class Admin dan User mewarisi atribut dan method dari class induk Akun, seperti login() dan logout(), agar struktur kode lebih efisien dan terorganisir. 
+<img width="700" height="450" alt="Inheritance" src="https://github.com/user-attachments/assets/0e9f35a1-0b25-4d3b-8b1a-9d01f67ff86b" />
+<br>
+
+<img width="700" height="450" alt="Admin ex Akun" src="https://github.com/user-attachments/assets/bf536a93-01f9-4b50-939b-67f09e9aaf17" />
+<br>
+
+<img width="700" height="450" alt="User ex Akun" src="https://github.com/user-attachments/assets/3c34367a-36b9-4c22-b7a0-97b80f06f8b5" />
+
+<p align="justify">
+Class <b>Admin</b> dan <b>User</b> mewarisi atribut dan method dari <b>Akun</b>.  
+Dengan begitu, atribut umum seperti <code>nama</code>, <code>email</code>, dan <code>password</code> 
+tidak perlu ditulis ulang di setiap class, menjadikan struktur kode lebih efisien dan mudah diperluas.
+</p>
 
 </details>
-
----
 
 <details>
 <summary><b>3. Polymorphism</b></summary>
+<br>
 
-Method login() memiliki implementasi berbeda antara Admin dan User, di mana Admin diarahkan ke *Dashboard Admin*, sedangkan User diarahkan ke *Dashboard User*. 
+<img width="700" height="450" alt="Polymorphism AkunDao" src="https://github.com/user-attachments/assets/f9da1e5e-dde4-44b0-8de3-9a67bfb2077f" />
+
+<p align="justify">
+Konsep <b>Polymorphism</b> diterapkan pada class <b>AkunDao</b> yang melakukan <i>override</i> terhadap method <code>save()</code> 
+dari <b>BaseDao</b>.  
+Setiap DAO dapat memiliki perilaku berbeda untuk method yang sama sesuai dengan kebutuhan entity masing-masing, 
+seperti validasi email ganda sebelum penyimpanan.
+</p>
 
 </details>
-
----
 
 <details>
 <summary><b>4. Abstraction</b></summary>
+<br>
 
-Interface AuthInterface mendefinisikan method abstrak seperti login() dan logout() yang wajib diimplementasikan oleh setiap class yang menangani autentikasi.
+<img width="700" height="450" alt="Abstraction BaseDao" src="https://github.com/user-attachments/assets/90f31631-b2c5-4af2-b14c-b96200982ff4" />
+<br>
+
+<img width="700" height="450" alt="Abstract Class BaseDao" src="https://github.com/user-attachments/assets/a1b7f861-9670-4d09-b0b2-9c04c877dc2e" />
+
+<p align="justify">
+Konsep <b>Abstraction</b> diterapkan melalui class abstrak <b>BaseDao</b>.  
+Class ini menyediakan logika dasar CRUD yang dapat digunakan ulang oleh semua class turunan DAO 
+tanpa harus menulis ulang logika yang sama.  
+Hal ini membuat sistem lebih efisien dan mudah dikelola.
+</p>
 
 </details>
 
----
-
 <details>
 <summary><b>5. Interface</b></summary>
+<br>
 
-File AuthInterface.java digunakan sebagai kontrak yang memastikan setiap class (seperti Admin dan User) memiliki fungsionalitas login yang konsisten dan mudah dikembangkan.
+<img width="700" height="450" alt="InterfaceDao" src="https://github.com/user-attachments/assets/6cbfc495-935d-4e79-85a5-6e163d293c38" />
+<br>
+
+<img width="700" height="450" alt="Implements Interface" src="https://github.com/user-attachments/assets/43da9a1e-0d92-4c04-a4f4-3d4e540ea28a" />
+
+<p align="justify">
+Konsep <b>Interface</b> diterapkan pada file <b>InterfaceDao.java</b> 
+yang mendefinisikan kontrak dasar seperti <code>find()</code>, <code>findAll()</code>, <code>save()</code>, dan <code>delete()</code>.  
+Class <b>BaseDao</b> mengimplementasikan interface ini, sehingga seluruh class turunan wajib mengikuti struktur dan standar yang sama.  
+Penerapan ini memperkuat prinsip <i>loose coupling</i> antar komponen sistem.
+</p>
 
 </details>
 
