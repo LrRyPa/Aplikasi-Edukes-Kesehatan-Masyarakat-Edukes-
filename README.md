@@ -121,3 +121,5 @@ Admin mengelola relasi antara penyakit dan obat melalu data yang diambil dari ta
 
 5. Logout
 Setelah selesai mengelola sistem, admin keluar dari aplikasi untuk menjaga keamanan data dan mencegah akses tidak sah.
+
+## 🖥️ Panduan & Antarmuka Pengguna (GUI)
