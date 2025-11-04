@@ -383,3 +383,349 @@ Pengguna cukup mengetik kata kunci pada kolom pencarian, dan sistem akan menampi
 </div>
 <br>
 </details>
+
+**🧠 Panduan Antarmuka Admin – EduKes**
+
+<details>
+<summary><b>1. Main Menu Admin</b></summary>
+<br>
+
+<div align="center">
+
+<img width="876" height="602" alt="Main Menu Admin" src="https://github.com/user-attachments/assets/ffd65ef6-22a5-4fac-85ea-fc9d02acb0f1" />
+
+<p align="center"><b><em>1.1. Main Menu Admin</em></b><br>
+Halaman utama bagi <b>Admin</b> setelah login.  
+Admin dapat mengakses seluruh fitur manajemen data yang mencakup <b>Artikel</b>, <b>Penyakit</b>, <b>Obat</b>, dan <b>Anjuran Obat</b>.  
+Tampilan ini berfungsi sebagai pusat navigasi CRUD dalam sistem EduKes.</p>
+
+</div>
+<br>
+</details>
+
+
+**📰 CRUD ARTIKEL**
+
+<details>
+<summary><b>2. Dashboard Artikel</b></summary>
+<br>
+
+<div align="center">
+
+<img width="873" height="605" alt="Artikel" src="https://github.com/user-attachments/assets/e311ae9e-b79a-4a7e-b151-8bf4d952c326" />
+
+
+<p align="center"><b><em>1.2. Dashboard Artikel</em></b><br>
+Halaman ini menampilkan daftar artikel kesehatan yang dikelola oleh Admin.  
+Admin dapat menambahkan, membaca detail, memperbarui, atau menghapus artikel melalui tombol CRUD di bagian bawah tabel.</p>
+
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>3. Read Artikel (Detail Artikel)</b></summary>
+<br>
+
+<div align="center">
+
+<img width="877" height="606" alt="Read A" src="https://github.com/user-attachments/assets/858cd64f-6c87-4d61-a5b0-7be3def4ca38" />
+
+
+<p align="center"><b><em>1.3. Read Artikel</em></b><br>
+Menampilkan detail lengkap artikel seperti <b>judul</b>, <b>admin pembuat</b>, <b>penyakit terkait</b>, <b>status</b>, <b>tanggal upload</b>, dan <b>isi artikel</b>.  
+Fitur ini membantu Admin meninjau isi artikel sebelum memperbarui atau menghapusnya.</p>
+
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>4. create Artikel</b></summary>
+<br>
+
+<div align="center">
+
+<img width="876" height="601" alt="Create A" src="https://github.com/user-attachments/assets/97a0a655-083e-48ea-8169-6d60df47c4f5" />
+
+
+<p align="center"><b><em>1.4. Tambah Artikel</em></b><br>
+Digunakan untuk menambah artikel baru ke database EduKes.  
+Admin mengisi <b>judul</b>, <b>isi artikel</b>, dan <b>penyakit terkait</b> lalu klik <b>Simpan</b>.</p>
+
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>5. upadate Artikel</b></summary>
+<br>
+
+<div align="center">
+
+<img width="881" height="602" alt="Update A" src="https://github.com/user-attachments/assets/c8eeedb6-f6a9-4a05-be99-1fd233d04081" />
+
+
+<p align="center"><b><em>1.5. Edit Artikel</em></b><br>
+Fitur untuk memperbarui artikel yang sudah ada.  
+Admin dapat memperbaiki isi atau menyesuaikan artikel sesuai kondisi terbaru.</p>
+
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>6. delete Artikel</b></summary>
+<br>
+
+<div align="center">
+
+<img width="881" height="604" alt="Delete A" src="https://github.com/user-attachments/assets/e2b446ce-4660-4df6-92e8-b3916e2bcb40" />
+
+
+<p align="center"><b><em>1.6. Hapus Artikel</em></b><br>
+Menghapus artikel yang tidak lagi relevan dari database EduKes.</p>
+</div>
+<br>
+</details>
+
+---
+
+**🧬 CRUD PENYAKIT**
+
+<details>
+<summary><b>7. Dashboard Penyakit</b></summary>
+<br>
+
+<div align="center">
+
+<img width="875" height="597" alt="Penyakit" src="https://github.com/user-attachments/assets/5cc229f9-5b86-4c33-a89e-252bf923939c" />
+
+
+<p align="center"><b><em>1.7. Dashboard Penyakit</em></b><br>
+Menampilkan seluruh daftar penyakit lengkap dengan <b>kategori</b>, <b>gejala</b>, <b>faktor risiko</b>, <b>pengobatan</b>, dan <b>pencegahan</b>.</p>
+
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>8. Read Penyakit (Detail Penyakit)</b></summary>
+<br>
+
+<div align="center">
+
+<img width="948" height="673" alt="Read P" src="https://github.com/user-attachments/assets/fee6ee55-d0f7-4272-82c7-07f5a687771b" />
+
+
+<p align="center"><b><em>1.8. Read Penyakit</em></b><br>
+Menampilkan detail lengkap penyakit seperti gejala, penyebab, pengobatan, dan langkah pencegahan.  
+Fitur ini membantu Admin meninjau data sebelum melakukan pembaruan.</p>
+
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>9. Create Penyakit</b></summary>
+<br>
+
+<div align="center">
+
+<img width="883" height="607" alt="Create P" src="https://github.com/user-attachments/assets/21eef7e5-7c01-4a6b-9f5f-8494c02d9f3a" />
+
+
+<p align="center"><b><em>1.9. Tambah Penyakit</em></b><br>
+Admin menambahkan penyakit baru ke database dengan melengkapi nama penyakit, kategori, gejala, dan pengobatan.</p>
+
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>10. Update Penyakit</b></summary>
+<br>
+
+<div align="center">
+
+<img width="874" height="597" alt="Update P" src="https://github.com/user-attachments/assets/8f182a3f-0f08-4065-89c6-724ead7d60bb" />
+
+
+<p align="center"><b><em>1.10. Edit Penyakit</em></b><br>
+Fitur ini memperbolehkan Admin untuk memperbarui informasi penyakit dengan data terbaru.</p>
+
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>11. Delete Penyakit</b></summary>
+<br>
+
+<div align="center">
+
+<img width="871" height="598" alt="Delete P" src="https://github.com/user-attachments/assets/bbc8c5fb-631a-47f6-891a-d3887cf09a1f" />
+
+<p align="center"><b><em>1.11. Delete Penyakit</em></b><br>
+Admin menghapus data penyakit yang tidak diperlukan dari sistem.</p>
+
+</div>
+<br>
+</details>
+
+**💊 CRUD OBAT**
+
+<details>
+<summary><b>12. Dashboard Obat</b></summary>
+<br>
+
+<div align="center">
+
+<img width="875" height="603" alt="Obat" src="https://github.com/user-attachments/assets/49ea1790-d60e-402d-8610-6f4221d8e2c3" />
+
+
+<p align="center"><b><em>1.12. Dashboard Obat</em></b><br>
+Menampilkan daftar obat lengkap dengan deskripsi, harga, golongan, indikasi, dan efek samping.</p>
+
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>13. Read Obat (Detail Obat)</b></summary>
+<br>
+
+<div align="center">
+
+<img width="880" height="599" alt="Read O" src="https://github.com/user-attachments/assets/38cdc0a0-9b49-495e-a13b-7b9ab5c8cc79" />
+
+<p align="center"><b><em>1.13. Read Obat</em></b><br>
+Fitur ini menampilkan rincian lengkap dari satu obat termasuk nama, deskripsi, harga, dan efek samping.  
+Admin dapat meninjau informasi sebelum memperbarui atau menghapus data.</p>
+
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>14. Create Obat</b></summary>
+<br>
+
+<div align="center">
+
+<img width="880" height="601" alt="Create O" src="https://github.com/user-attachments/assets/7348b761-155f-4f5f-acc9-e7630d5d2031" />
+
+<p align="center"><b><em>1.14. Tambah Obat</em></b><br>
+Admin mengisi form untuk menambah obat baru beserta deskripsi dan kategori medisnya.</p>
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>15. Update Obat</b></summary>
+<br>
+
+<div align="center">
+
+<img width="874" height="598" alt="Update O" src="https://github.com/user-attachments/assets/870af505-56bf-45f9-9156-cedda1991bfd" />
+
+
+<p align="center"><b><em>1.15. Edit Obat</em></b><br>
+Digunakan untuk memperbarui informasi obat agar sesuai dengan data medis terbaru.</p>
+
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>16. Delete Obat</b></summary>
+<br>
+
+<div align="center">
+
+<img width="877" height="601" alt="Delete O" src="https://github.com/user-attachments/assets/cc5a5df3-0f22-4e60-8da6-7f48da9ad276" />
+
+<p align="center"><b><em>1.16. Hapus Obat</em></b><br>
+Admin menghapus obat dari database apabila sudah tidak digunakan.</p>
+
+</div>
+<br>
+</details>
+
+
+**💉 CRUD ANJURAN OBAT**
+
+<details>
+<summary><b>17. Dashboard Anjuran Obat</b></summary>
+<br>
+
+<div align="center">
+
+<img width="878" height="598" alt="Anjuran Obat" src="https://github.com/user-attachments/assets/ee7e65f1-2b38-4e08-9876-6cb99e258fa5" />
+
+<p align="center"><b><em>1.17. Dashboard Anjuran Obat</em></b><br>
+Menampilkan daftar anjuran penggunaan obat berdasarkan penyakit tertentu.</p>
+
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>18. Read Anjuran Obat </b></summary>
+<br>
+
+<div align="center">
+
+<img width="879" height="605" alt="Read AO" src="https://github.com/user-attachments/assets/0d58bc5c-4081-4a1a-9eb0-699f8cba207c" />
+
+<p align="center"><b><em>1.18. Read Anjuran Obat</em></b><br>
+Menampilkan informasi lengkap anjuran penggunaan obat seperti nama penyakit, dosis, dan aturan pakai.</p>
+
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>19. Create Anjuran Obat</b></summary>
+<br>
+
+<div align="center">
+
+<img width="879" height="607" alt="Create AO" src="https://github.com/user-attachments/assets/d87e8e89-65cd-435c-be84-fbdb1c3988f4" />
+
+<p align="center"><b><em>1.19. Tambah Anjuran Obat</em></b><br>
+Admin menambahkan data anjuran obat baru ke database dengan mengisi form detail.</p>
+
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>20. Update Anjuran Obat</b></summary>
+<br>
+
+<div align="center">
+
+<img width="870" height="608" alt="Update AO" src="https://github.com/user-attachments/assets/33d3cb5d-a961-433b-a467-64137d360f67" />
+
+<p align="center"><b><em>1.20. Update Anjuran Obat</em></b><br>
+Fitur ini digunakan untuk memperbarui dosis atau aturan pakai sesuai data medis terkini.</p>
+
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>21. Delete Anjuran Obat</b></summary>
+<br>
+
+<div align="center">
+
+<img width="878" height="603" alt="Delete AO" src="https://github.com/user-attachments/assets/3aa25430-dc63-4f28-8e45-74b48b4894a7" />
+
+<p align="center"><b><em>1.21. Delete Anjuran Obat</em></b><br>
+Admin menghapus data anjuran obat yang sudah tidak digunakan.</p>
+
+</div>
+<br>
+</details>
