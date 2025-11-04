@@ -42,6 +42,43 @@ Dengan tampilan yang sederhana dan fitur yang mudah digunakan, EDUKES diharapkan
 <details>
 <summary><b>1. Encapsulation</b></summary>
 
+ Class seperti User, Admin, dan Artikel memiliki atribut private seperti nama, email, dan password, yang hanya dapat diakses melalui method getter dan setter untuk menjaga keamanan data pengguna.
+
+ </details>
+
+---
+
+<details>
+<summary><b>2. Inheritance</b></summary>
+
+Class Admin dan User mewarisi atribut dan method dari class induk Akun, seperti login() dan logout(), agar struktur kode lebih efisien dan terorganisir. 
+
+</details>
+
+---
+
+<details>
+<summary><b>3. Polymorphism</b></summary>
+
+Method login() memiliki implementasi berbeda antara Admin dan User, di mana Admin diarahkan ke *Dashboard Admin*, sedangkan User diarahkan ke *Dashboard User*. 
+
+</details>
+
+---
+
+<details>
+<summary><b>4. Abstraction</b></summary>
+
+Interface AuthInterface mendefinisikan method abstrak seperti login() dan logout() yang wajib diimplementasikan oleh setiap class yang menangani autentikasi.
+
+</details>
+
+---
+
+<details>
+<summary><b>5. Interface</b></summary>
+
+File AuthInterface.java digunakan sebagai kontrak yang memastikan setiap class (seperti Admin dan User) memiliki fungsionalitas login yang konsisten dan mudah dikembangkan.
 
 ## Alur Program
 **a. User (Masyarakat)**
