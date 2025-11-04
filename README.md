@@ -135,8 +135,7 @@ Setelah selesai mengelola sistem, admin keluar dari aplikasi untuk menjaga keama
   <p align="center"><b><em>1.1. Halaman Registrasi</em></b><br>
   Halaman ini digunakan untuk membuat akun baru pengguna EDUKES.  
   Pengguna wajib mengisi nama, alamat, email, dan password untuk mendaftar.  
-  Setelah menekan tombol <b>Kirim</b>, sistem akan menyimpan data ke database dan menampilkan pesan “Registrasi Berhasil”.  
-  Tombol <b>Kembali</b> mengarahkan pengguna ke halaman Login.</p>
+
 </div>
 <br>
 </details>
@@ -152,8 +151,7 @@ Setelah selesai mengelola sistem, admin keluar dari aplikasi untuk menjaga keama
   <p align="center"><b><em>1.2. Halaman Login</em></b><br>
   Halaman login digunakan untuk masuk ke sistem EDUKES menggunakan email dan password yang sudah terdaftar.  
   Jika login berhasil, pengguna diarahkan ke halaman dashboard sesuai peran (User atau Admin).  
-  Jika gagal, sistem akan menampilkan pesan <em>“Email atau Password salah.”</em>  
-  Tombol <b>Registrasi</b> dapat digunakan untuk berpindah ke halaman pendaftaran akun baru.</p>
+    
 </div>
 <br>
 </details>
