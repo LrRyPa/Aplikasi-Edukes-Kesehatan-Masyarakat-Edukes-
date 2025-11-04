@@ -317,10 +317,6 @@ Berikut daftar library yang digunakan beserta fungsinya:
   Versi *Java Development Kit* yang digunakan untuk menjalankan dan mengompilasi program.  
   Versi 24 ini mendukung fitur-fitur baru seperti peningkatan performa dan keamanan, serta kompatibilitas dengan pustaka Jakarta EE.
 
----
-
-💡 **Catatan:**  
-Semua library di atas harus disertakan dalam folder **Libraries** agar aplikasi dapat berjalan dengan baik, terutama saat mengakses database menggunakan *EclipseLink JPA* dan *MySQL Connector*.
 
 ## 🧭 Alur Penggunaan Sistem EduKes
 
