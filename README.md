@@ -113,15 +113,16 @@ Hal ini membuat sistem lebih efisien dan mudah dikelola.</p>
 <summary><b>5. Interface</b></summary>
 <br>
 
-<img width="700" height="450" alt="Implements Interface" src="https://github.com/user-attachments/assets/43da9a1e-0d92-4c04-a4f4-3d4e540ea28a" />
+<img width="836" height="347" alt="Admin ex Akun" src="https://github.com/user-attachments/assets/11abe3a7-ff7e-41e2-b8bc-890689625925" />
 
-<img width="663" height="817" alt="Impelemnts Interface di Basedao" src="https://github.com/user-attachments/assets/74ba0796-09de-4b5d-9ceb-1ef11f273ed3" />
+<img width="326" height="198" alt="Struktur Inherit keseluruhan" src="https://github.com/user-attachments/assets/d236a79e-34d2-48f5-8eac-64e3a5490da7" />
 
-<img width="790" height="789" alt="Implements Interface di BaseDao" src="https://github.com/user-attachments/assets/ef1a6b7b-480a-4a3f-94b7-e13561fc68fe" />
+<img width="321" height="88" alt="Struktur inherit" src="https://github.com/user-attachments/assets/2e91b120-a724-4537-8965-2d6d455d7bb7" />
 
 <img width="330" height="25" alt="Screenshot 2025-11-04 173645" src="https://github.com/user-attachments/assets/53c8d292-4cca-484a-8220-d63c39e05dbe" />
 
-<img width="323" height="154" alt="Struktur implements" src="https://github.com/user-attachments/assets/16e58b03-a69f-4c85-9617-e30118087946" />
+<img width="849" height="364" alt="User ex Akun" src="https://github.com/user-attachments/assets/07cecc5d-b4f4-487c-9e4c-cbc9d192f118" />
+
 
 <p align="justify">
 Konsep <b>Interface</b> diterapkan pada file <b>InterfaceDao.java</b> 
