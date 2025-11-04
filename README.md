@@ -113,10 +113,6 @@ Hal ini membuat sistem lebih efisien dan mudah dikelola.</p>
 <summary><b>5. Interface</b></summary>
 <br>
 
-<img width="461" height="255" alt="Code Interface" src="https://github.com/user-attachments/assets/c8d4c366-0e8a-413c-bc71-a9ec9aa04ece" />
-
-<br>
-
 <img width="700" height="450" alt="Implements Interface" src="https://github.com/user-attachments/assets/43da9a1e-0d92-4c04-a4f4-3d4e540ea28a" />
 
 <img width="663" height="817" alt="Impelemnts Interface di Basedao" src="https://github.com/user-attachments/assets/74ba0796-09de-4b5d-9ceb-1ef11f273ed3" />
@@ -287,6 +283,44 @@ Package ini berisi file utama untuk menjalankan aplikasi.
 > Package ini memastikan aplikasi berjalan dengan urutan dan konfigurasi yang benar saat pertama kali dijalankan.
 
 </details>
+
+## 🧰 Library / Framework yang Digunakan
+
+Dalam pengembangan aplikasi **EduKes**, beberapa library eksternal digunakan untuk mendukung pembuatan GUI, manajemen database, logging sistem, dan penerapan ORM berbasis JPA (Java Persistence API).  
+Berikut daftar library yang digunakan beserta fungsinya:
+
+- **`eclipselink-4.0.2.jar`**  
+  Digunakan sebagai implementasi dari *Java Persistence API (JPA)* untuk mengelola relasi antara objek Java dan tabel di database MySQL.  
+  EclipseLink berfungsi sebagai ORM (Object Relational Mapping) yang mempermudah penyimpanan, pembacaan, dan sinkronisasi data.
+
+- **`jakarta.persistence-api-3.1.0.jar`**  
+  Merupakan pustaka utama untuk JPA. File ini mendefinisikan seluruh class dan annotation penting seperti `@Entity`, `@Table`, `@Column`, dan `@Id`.  
+  Tanpa library ini, konfigurasi JPA seperti pada file `persistence.xml` tidak dapat dijalankan.
+
+- **`mysql-connector-j-9.4.0.jar`**  
+  Library JDBC (Java Database Connectivity) yang memungkinkan aplikasi Java terhubung dengan database MySQL.  
+  Koneksi ini digunakan dalam konfigurasi `jdbc:mysql://localhost:3306/edukes` pada file `persistence.xml`.
+
+- **`slf4j-api-2.0.17.jar`**  
+  Berfungsi sebagai *logging abstraction* untuk menampilkan pesan log (info, warning, atau error) selama aplikasi berjalan.  
+  Membantu developer melakukan debugging dengan mudah tanpa mengganggu jalannya program.
+
+- **`slf4j-simple-2.0.17.jar`**  
+  Implementasi sederhana dari SLF4J yang menampilkan hasil log langsung ke console.  
+  Library ini bekerja bersama `slf4j-api` untuk memberikan output log yang lebih rapi dan mudah dibaca.
+
+- **`AbsoluteLayout.jar`**  
+  Digunakan di NetBeans untuk mendukung tata letak (layout) bebas pada GUI berbasis Swing.  
+  Dengan layout ini, posisi setiap komponen seperti tombol, label, dan text field dapat diatur secara manual sesuai desain.
+
+- **`JDK 24 (Default)`**  
+  Versi *Java Development Kit* yang digunakan untuk menjalankan dan mengompilasi program.  
+  Versi 24 ini mendukung fitur-fitur baru seperti peningkatan performa dan keamanan, serta kompatibilitas dengan pustaka Jakarta EE.
+
+---
+
+💡 **Catatan:**  
+Semua library di atas harus disertakan dalam folder **Libraries** agar aplikasi dapat berjalan dengan baik, terutama saat mengakses database menggunakan *EclipseLink JPA* dan *MySQL Connector*.
 
 ## 🧭 Alur Penggunaan Sistem EduKes
 
