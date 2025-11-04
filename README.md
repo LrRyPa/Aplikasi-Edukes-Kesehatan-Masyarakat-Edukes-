@@ -384,6 +384,8 @@ Pengguna cukup mengetik kata kunci pada kolom pencarian, dan sistem akan menampi
 <br>
 </details>
 
+---
+
 **🧠 Panduan Antarmuka Admin – EduKes**
 
 <details>
@@ -403,6 +405,7 @@ Tampilan ini berfungsi sebagai pusat navigasi CRUD dalam sistem EduKes.</p>
 <br>
 </details>
 
+---
 
 **📰 CRUD ARTIKEL**
 
@@ -573,6 +576,8 @@ Admin menghapus data penyakit yang tidak diperlukan dari sistem.</p>
 <br>
 </details>
 
+---
+
 **💊 CRUD OBAT**
 
 <details>
@@ -652,6 +657,7 @@ Admin menghapus obat dari database apabila sudah tidak digunakan.</p>
 <br>
 </details>
 
+---
 
 **💉 CRUD ANJURAN OBAT**
 
