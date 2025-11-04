@@ -234,6 +234,7 @@ Package ini berisi file utama untuk menjalankan aplikasi.
 
 </details>
 
+## 🧭 Alur Penggunaan Sistem EduKes
 
 1. Registrasi dan Login
 Pengguna membuat akun dengan mengisi data pribadi seperti nama, email, dan kata sandi. Setelah akun terdaftar, pengguna dapat login ke sistem.
