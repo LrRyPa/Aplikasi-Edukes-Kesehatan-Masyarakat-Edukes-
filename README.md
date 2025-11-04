@@ -203,16 +203,80 @@ Setelah selesai mengelola sistem, admin keluar dari aplikasi untuk menjaga keama
 <br>
 </details>
 
+<details>
+<summary><b>6. Dashboard Artikel</b></summary>
+<br>
+
+<div align="center">
+  
+  <img width="873" height="590" alt="Dashboard A" src="https://github.com/user-attachments/assets/24f5eb04-fbbf-4abd-81ea-471de4b38925" />
+
+  <p align="center"><b><em>1.6. Dashboard Artikel</em></b><br>
+  Halaman ini menampilkan daftar artikel kesehatan yang tersedia di aplikasi <b>EduKes</b>.  
+  Pengguna dapat mencari artikel berdasarkan kata kunci menggunakan kolom pencarian di atas tabel.  
+  Setiap artikel berisi informasi <b>judul</b>, <b>isi artikel</b>, dan <b>nama penyakit</b> terkait.</p>
+</div>
+<br>
+</details>
 
 <details>
-<summary><b>6. Halaman Artikel</b></summary>
+<summary><b>7. Dashboard Penyakit</b></summary>
+<br>
+
+<div align="center">
+  
+ <img width="878" height="600" alt="Dashboard P" src="https://github.com/user-attachments/assets/2982be52-fbc6-4733-aca5-469a90bcc42a" />
+
+  <p align="center"><b><em>1.7. Dashboard Penyakit</em></b><br>
+  Halaman ini berfungsi untuk menampilkan daftar penyakit lengkap beserta informasi penting seperti  
+  <b>kategori</b>, <b>gejala</b>, <b>faktor risiko</b>, <b>pengobatan</b>, dan <b>pencegahan</b>.  
+  Pengguna dapat melakukan pencarian dengan mengetik nama penyakit pada kolom pencarian.</p>
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>8. Dashboard Obat</b></summary>
+<br>
+
+<div align="center">
+  
+  <img width="878" height="600" alt="Dashboard O" src="https://github.com/user-attachments/assets/3fffba8c-f08e-46aa-b47a-b8ab369b74b0" />
+
+  <p align="center"><b><em>1.8. Dashboard Obat</em></b><br>
+  Halaman ini menampilkan daftar obat yang dilengkapi dengan <b>nama obat</b>, <b>deskripsi</b>, <b>harga</b>,  
+  <b>golongan</b>, <b>indikasi umum</b>, dan <b>efek samping</b>.  
+  Fitur pencarian memudahkan pengguna menemukan obat berdasarkan nama atau golongannya.</p>
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>9. Dashboard Anjuran Obat</b></summary>
+<br>
+
+<div align="center">
+  
+  <img width="878" height="606" alt="Dashboard AO" src="https://github.com/user-attachments/assets/25c78852-a3bf-4d92-994d-fb61bc65926d" />
+
+  <p align="center"><b><em>1.9. Dashboard Anjuran Obat</em></b><br>
+  Halaman ini menampilkan daftar anjuran penggunaan obat sesuai dengan penyakit tertentu.  
+  Informasi yang ditampilkan mencakup <b>nama penyakit</b>, <b>nama obat</b>, <b>dosis anjuran</b>, dan <b>aturan pakai</b>.  
+  Pengguna dapat mencari anjuran obat dengan mudah melalui kolom pencarian di bagian atas.</p>
+</div>
+<br>
+</details>
+
+
+<details>
+<summary><b>10. Halaman Artikel</b></summary>
 <br>
 
 <div align="center">
 
 <img width="877" height="587" alt="Read A" src="https://github.com/user-attachments/assets/343fe8b5-151a-457a-9e7f-3c76c8b83428" />
 
-  <p align="center"><b><em>1.5. Halaman Artikel</em></b><br>
+  <p align="center"><b><em>1.10. Halaman Artikel</em></b><br>
   Halaman ini menampilkan kumpulan artikel edukasi kesehatan yang dapat dibaca oleh pengguna.  
  
 </div>
@@ -220,7 +284,7 @@ Setelah selesai mengelola sistem, admin keluar dari aplikasi untuk menjaga keama
 </details>
 
 <details>
-<summary><b>7. Fitur Pencarian Artikel</b></summary>
+<summary><b>11. Fitur Pencarian Artikel</b></summary>
 <br>
 
 <div align="center">
@@ -228,7 +292,7 @@ Setelah selesai mengelola sistem, admin keluar dari aplikasi untuk menjaga keama
   <img width="869" height="593" alt="Search A" src="https://github.com/user-attachments/assets/7a6fbcb1-82cf-4700-8064-d869bb2a7b3e" />
 
 
-  <p align="center"><b><em>1.7. Fitur Pencarian Artikel</em></b><br>
+  <p align="center"><b><em>1.11. Fitur Pencarian Artikel</em></b><br>
   Pengguna dapat menggunakan fitur pencarian untuk menemukan artikel tertentu dengan cepat.  
   Hasil pencarian akan menampilkan artikel yang relevan sesuai kata kunci yang dimasukkan.</p>
 </div>
@@ -236,14 +300,14 @@ Setelah selesai mengelola sistem, admin keluar dari aplikasi untuk menjaga keama
 </details>
 
 <details>
-<summary><b>8. Halaman Penyakit</b></summary>
+<summary><b>12. Halaman Penyakit</b></summary>
 <br>
 
 <div align="center">
   
   <img width="1143" height="603" alt="Read P" src="https://github.com/user-attachments/assets/4e5a9146-125b-40d6-b854-af3433cc551a" />
 
-  <p align="center"><b><em>1.6. Halaman Penyakit</em></b><br>
+  <p align="center"><b><em>1.12. Halaman Penyakit</em></b><br>
   Halaman ini berisi informasi lengkap mengenai berbagai jenis penyakit,  
   termasuk gejala, penyebab, dan langkah pencegahan.  
   Tujuannya agar pengguna dapat mengenali kondisi kesehatan dengan lebih baik.</p>
@@ -252,14 +316,14 @@ Setelah selesai mengelola sistem, admin keluar dari aplikasi untuk menjaga keama
 </details>
 
 <details>
-<summary><b>9. Fitur Pencarian Penyakit</b></summary>
+<summary><b>13. Fitur Pencarian Penyakit</b></summary>
 <br>
 
 <div align="center">
   
  <img width="877" height="602" alt="Search P" src="https://github.com/user-attachments/assets/7d148a48-3e69-4b51-8f93-bf146a8732e2" />
 
-  <p align="center"><b><em>1.9. Fitur Pencarian Penyakit</em></b><br>
+  <p align="center"><b><em>1.13. Fitur Pencarian Penyakit</em></b><br>
   Pengguna dapat mencari penyakit tertentu dengan memasukkan nama penyakit ke kolom pencarian.  
   Hasil yang ditampilkan akan sesuai dengan data penyakit yang tersedia di database.</p>
 </div>
@@ -267,14 +331,14 @@ Setelah selesai mengelola sistem, admin keluar dari aplikasi untuk menjaga keama
 </details>
 
 <details>
-<summary><b>10. Halaman Obat</b></summary>
+<summary><b>14. Halaman Obat</b></summary>
 <br>
 
 <div align="center">
   
   <img width="1012" height="390" alt="ReadO" src="https://github.com/user-attachments/assets/1e3c392f-63d9-4c37-b214-be4ffa0cdda1" />
 
-  <p align="center"><b><em>1.7. Halaman Obat</em></b><br>
+  <p align="center"><b><em>1.14. Halaman Obat</em></b><br>
   Halaman ini memberikan informasi mengenai berbagai jenis obat dan fungsinya.  
  
 </div>
@@ -282,14 +346,14 @@ Setelah selesai mengelola sistem, admin keluar dari aplikasi untuk menjaga keama
 </details>
 
 <details>
-<summary><b>11. Fitur Pencarian Obat</b></summary>
+<summary><b>15. Fitur Pencarian Obat</b></summary>
 <br>
 
 <div align="center">
   
  <img width="880" height="593" alt="Search O" src="https://github.com/user-attachments/assets/b3f63d0a-3e5a-44e3-9d4b-092183add187" />
 
-  <p align="center"><b><em>1.11. Fitur Pencarian Obat</em></b><br>
+  <p align="center"><b><em>1.15. Fitur Pencarian Obat</em></b><br>
   Pengguna dapat mencari obat dengan mengetikkan nama obat di kolom pencarian.  
   Sistem akan menampilkan hasil sesuai dengan nama obat yang dicari.</p>
 </div>
@@ -297,14 +361,14 @@ Setelah selesai mengelola sistem, admin keluar dari aplikasi untuk menjaga keama
 </details>
 
 <details>
-<summary><b>12. Halaman Anjuran Obat</b></summary>
+<summary><b>16. Halaman Anjuran Obat</b></summary>
 <br>
 
 <div align="center">
   
 <img width="1156" height="313" alt="Read AO" src="https://github.com/user-attachments/assets/f8578e28-82e4-467f-800b-5e3dab9e52f1" />
 
-  <p align="center"><b><em>1.8. Halaman Anjuran Obat</em></b><br>
+  <p align="center"><b><em>1.17. Halaman Anjuran Obat</em></b><br>
   Halaman ini menampilkan anjuran dan rekomendasi penggunaan obat secara aman dan sesuai kondisi.  
   Informasi yang tersedia membantu pengguna dalam memahami cara pemakaian yang benar untuk menghindari efek samping.</p>
 </div>
@@ -312,14 +376,14 @@ Setelah selesai mengelola sistem, admin keluar dari aplikasi untuk menjaga keama
 </details>
 
 <details>
-<summary><b>13. Fitur Pencarian Anjuran Obat</b></summary>
+<summary><b>18. Fitur Pencarian Anjuran Obat</b></summary>
 <br>
 
 <div align="center">
   
  <img width="877" height="605" alt="Search AO" src="https://github.com/user-attachments/assets/8c6505cf-ea6c-4e71-8c63-dd78b3e72a04" />
 >
-  <p align="center"><b><em>1.15. Fitur Pencarian Anjuran Obat</em></b><br>
+  <p align="center"><b><em>1.18. Fitur Pencarian Anjuran Obat</em></b><br>
   Fitur ini digunakan untuk mencari anjuran obat berdasarkan nama penyakit atau jenis obat tertentu.  
   Pengguna cukup mengetik kata kunci pada kolom pencarian, dan sistem akan menampilkan daftar anjuran obat yang sesuai.  
   Tujuannya untuk memudahkan pengguna menemukan informasi penggunaan obat yang relevan secara cepat dan akurat.</p>
