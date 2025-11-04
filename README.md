@@ -180,31 +180,31 @@ Setelah selesai mengelola sistem, admin keluar dari aplikasi untuk menjaga keama
 <br>
 
 <div align="center">
-  
   <img width="876" height="602" alt="Profil U" src="https://github.com/user-attachments/assets/be0345c2-8a8d-4306-84aa-bfccdcd344e3" />
 
-  
   <p align="center"><b><em>1.4. Halaman Profil Pengguna</em></b><br>
   Halaman ini digunakan oleh pengguna untuk melihat dan memperbarui data pribadinya.  
-  
+  Informasi seperti <b>Nama</b>, <b>Alamat</b>, dan <b>Password</b> dapat diubah sesuai kebutuhan.  
+  Tombol <b>Edit</b> berfungsi untuk mengaktifkan mode pengeditan, dan tombol <b>Simpan</b> digunakan untuk menyimpan perubahan ke database.</p>
 </div>
 <br>
 </details>
 
-details>
+
+<details>
 <summary><b>5. Fitur Perbarui Profil</b></summary>
 <br>
 
 <div align="center">
-  
   <img width="876" height="598" alt="Update Profil" src="https://github.com/user-attachments/assets/a14c2d42-19f1-4e41-8331-d6b2929872a4" />
-
+  
   <p align="center"><b><em>1.5. Fitur Perbarui Profil</em></b><br>
   Fitur ini memungkinkan pengguna untuk memperbarui data diri mereka.  
   Setelah tombol <b>Edit</b> ditekan, kolom data akan aktif dan pengguna dapat mengubah informasi sebelum menekan tombol <b>Simpan</b>.</p>
 </div>
 <br>
 </details>
+
 
 <details>
 <summary><b>6. Halaman Artikel</b></summary>
