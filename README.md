@@ -1,5 +1,8 @@
 # Aplikasi-Edukes-Kesehatan-Masyarakat-EduKes-
 
+<img width="557" height="348" alt="FrameAwal" src="https://github.com/user-attachments/assets/52ac2c57-da09-4f35-988b-1fc3f7d51041" />
+
+
 ## 🩺 Deskripsi Aplikasi EduKes
 
 EduKes (Edukasi Kesehatan) adalah aplikasi berbasis desktop yang dirancang untuk untuk meningkatkan kesadaran akan kesehatan pada Masyarakat.
