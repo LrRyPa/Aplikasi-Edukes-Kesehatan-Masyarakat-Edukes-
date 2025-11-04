@@ -80,6 +80,8 @@ Interface AuthInterface mendefinisikan method abstrak seperti login() dan logout
 
 File AuthInterface.java digunakan sebagai kontrak yang memastikan setiap class (seperti Admin dan User) memiliki fungsionalitas login yang konsisten dan mudah dikembangkan.
 
+</details>
+
 ## Alur Program
 **a. User (Masyarakat)**
 
