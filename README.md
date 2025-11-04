@@ -82,8 +82,158 @@ File AuthInterface.java digunakan sebagai kontrak yang memastikan setiap class (
 
 </details>
 
-## Alur Program
-**a. User (Masyarakat)**
+## 📂 Struktur Folder / Package
+
+Struktur folder pada proyek **EduKes** dibuat berdasarkan pola **MVC (Model–View–Controller)** untuk memisahkan logika bisnis, tampilan, dan pengelolaan data.  
+Struktur ini membuat aplikasi lebih terorganisir, mudah dikembangkan, dan terjaga keterbacaan kodenya.
+
+
+<details>
+<summary>🧩 <b>adminpanel</b></summary>
+
+Package ini berisi seluruh komponen **tampilan (View)** untuk halaman Admin.  
+Setiap form di package ini dibuat menggunakan Java Swing dan berfungsi sebagai antarmuka utama bagi admin dalam mengelola data Artikel, Penyakit, Obat, dan Anjuran Obat.
+
+**File penting:**
+- `A_Main.java` → Tampilan utama Admin setelah login, sebagai pusat navigasi menuju fitur CRUD.  
+- `A_Artikel.java`, `A_Edit_Artikel.java` → Mengatur tampilan CRUD untuk artikel kesehatan.  
+- `A_Penyakit.java`, `A_Edit_Penyakit.java` → Menampilkan dan mengelola data penyakit.  
+- `A_Obat.java`, `A_Edit_Obat.java` → Form untuk manajemen data obat.  
+- `A_Anjuran_Obat.java`, `A_Edit_Anjuran_Obat.java` → Form untuk menampilkan dan memperbarui anjuran penggunaan obat.
+
+> Package ini menjadi bagian utama yang digunakan oleh Admin untuk mengelola seluruh konten di sistem EduKes.
+
+</details>
+
+<details>
+<summary>🧠 <b>controller</b></summary>
+
+Package **controller** berfungsi sebagai jembatan antara *View* (antarmuka pengguna) dan *Model* (data).  
+Setiap controller memuat logika bisnis untuk memproses input dari form dan mengatur komunikasi dengan *Service* serta *DAO*.
+
+**File utama:**
+- `ArtikelController.java` → Mengatur alur CRUD Artikel (tambah, ubah, hapus, tampil).  
+- `PenyakitController.java` → Mengelola data penyakit termasuk pencarian dan pembaruan.  
+- `ObatController.java` → Mengatur logika CRUD obat dan integrasinya dengan tabel tampilan.  
+- `AnjuranObatController.java` → Menangani interaksi antara tampilan dan database untuk data anjuran obat.  
+- `AuthController.java` → Mengatur proses login pengguna (Admin dan User).
+
+> Package ini berperan penting dalam mengatur interaksi dan alur data antar lapisan sistem.
+
+</details>
+
+<details>
+<summary>🗄️ <b>dao</b></summary>
+
+Package **dao (Data Access Object)** berfungsi sebagai penghubung langsung antara aplikasi dan database menggunakan JPA (*Java Persistence API*).  
+Setiap file DAO menyediakan metode CRUD yang digunakan oleh lapisan *Service*.
+
+**File penting:**
+- `BaseDao.java` → Kelas dasar berisi fungsi umum seperti `findAll`, `insert`, `update`, dan `delete`.  
+- `InterfaceDao.java` → Interface untuk mendefinisikan kontrak dasar DAO.  
+- `ArtikelDao.java`, `PenyakitDao.java`, `ObatDao.java`, `AnjuranObatDao.java` → DAO spesifik untuk setiap entitas data.  
+- `AdminDao.java`, `UserDao.java`, `AkunDao.java` → Mengatur query untuk autentikasi pengguna.  
+- `KategoriDao.java` → Menyediakan fungsi untuk manajemen kategori penyakit atau obat.
+
+> Dengan package ini, semua operasi database dapat dilakukan dengan rapi tanpa perlu menulis query SQL berulang.
+
+</details>
+
+<details>
+<summary>💡 <b>service</b></summary>
+
+Package **service** bertugas sebagai lapisan logika bisnis (*business logic layer*) antara Controller dan DAO.  
+Kelas-kelas di sini memanggil DAO untuk melakukan query dan mengembalikan hasilnya ke Controller.
+
+**File penting:**
+- `ArtikelService.java`, `PenyakitService.java`, `ObatService.java`, `AnjuranObatService.java` → Mengatur seluruh logika CRUD dari setiap modul utama.  
+- `AdminService.java`, `UserService.java`, `AkunService.java` → Mengatur autentikasi dan data akun.  
+- `KategoriService.java` → Melayani permintaan kategori penyakit atau obat.
+
+> Package ini memastikan setiap proses bisnis dilakukan dengan aman dan konsisten.
+
+</details>
+
+<details>
+<summary>🧬 <b>model</b></summary>
+
+Package **model** berisi kelas-kelas *entity* yang merepresentasikan tabel pada database.  
+Setiap kelas model berisi atribut dan *getter/setter* yang sesuai dengan kolom pada tabelnya.
+
+**Daftar entitas utama:**
+- `Admin.java`, `User.java`, `Akun.java` → Menyimpan data pengguna.  
+- `Artikel.java`, `Penyakit.java`, `Obat.java`, `AnjuranObat.java` → Representasi data utama aplikasi EduKes.  
+- `Kategori.java` → Menyimpan kategori data terkait penyakit dan obat.
+
+> Package ini menjadi fondasi untuk semua data yang digunakan oleh aplikasi.
+
+</details>
+
+<details>
+<summary>🧠 <b>userpanel</b></summary>
+
+Package ini berisi seluruh tampilan GUI (*Graphical User Interface*) untuk pengguna umum (User).  
+Semua file di sini menggunakan Java Swing dan dirancang agar mudah digunakan.
+
+**File utama:**
+- `DashboardAwal.java` → Halaman utama setelah user login.  
+- `DashboardArtikel.java`, `DashboardPenyakit.java`, `DashboardObat.java`, `DashboardAnjuranObat.java` → Menampilkan data dari masing-masing modul.  
+- `FormProfil.java` → Digunakan untuk melihat dan mengedit profil pengguna.  
+- `DashboardEditProfil.java` → Form pembaruan profil dengan fitur simpan otomatis.  
+- `Registrasi.java` → Form pendaftaran akun baru.
+
+> Package ini menyediakan antarmuka interaktif bagi pengguna untuk mengakses informasi kesehatan dengan mudah.
+
+</details>
+
+<details>
+<summary>🧩 <b>ui</b></summary>
+
+Package ini berisi komponen tambahan yang digunakan untuk mendukung antarmuka pengguna.  
+
+**Contoh:**
+- `PencarianCBox.java` → Kelas pendukung untuk komponen pencarian berbasis combobox di berbagai dashboard.
+
+</details>
+
+<details>
+<summary>⚙️ <b>util</b></summary>
+
+Package ini berisi fungsi-fungsi pendukung (*helper class*) yang digunakan di seluruh aplikasi.  
+
+**File penting:**
+- `AppContext.java` → Menyimpan konfigurasi global aplikasi.  
+- `JpaUtil.java` → Mengatur koneksi dan konfigurasi EntityManager JPA.  
+- `Sesi.java` → Menyimpan data sesi user yang sedang login.  
+- `testJPA.java` → File untuk melakukan pengujian koneksi database.
+
+> Package ini mempermudah pengelolaan utilitas sistem agar tidak bercampur dengan logika utama aplikasi.
+
+</details>
+
+<details>
+<summary>🎨 <b>icon</b></summary>
+
+Package ini berisi seluruh aset gambar yang digunakan pada GUI aplikasi seperti logo, ilustrasi, dan background.  
+
+**Contoh:**
+- `Logo.jpeg`, `FrameAwal.png`, `FrameMain.png`, `FrameArtikel.png`, `FrameProfile.png`
+
+> Semua digunakan untuk meningkatkan tampilan visual aplikasi agar lebih menarik dan informatif.
+
+</details>
+
+<details>
+<summary>🚀 <b>main</b></summary>
+
+Package ini berisi file utama untuk menjalankan aplikasi.  
+
+- `Main.java` → Entry point dari program EduKes, berfungsi memanggil form awal (biasanya halaman login atau dashboard).
+
+> Package ini memastikan aplikasi berjalan dengan urutan dan konfigurasi yang benar saat pertama kali dijalankan.
+
+</details>
+
 
 1. Registrasi dan Login
 Pengguna membuat akun dengan mengisi data pribadi seperti nama, email, dan kata sandi. Setelah akun terdaftar, pengguna dapat login ke sistem.
