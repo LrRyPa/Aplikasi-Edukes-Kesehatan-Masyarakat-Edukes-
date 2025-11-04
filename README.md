@@ -43,7 +43,7 @@ Dengan tampilan yang sederhana dan fitur yang mudah digunakan, EDUKES diharapkan
 <summary><b>1. Encapsulation</b></summary>
 <br>
 
-<img width="700" height="744" alt="Encapsulation" src="https://github.com/user-attachments/assets/521cd676-c671-4b34-9df7-7000cd4932f3" />
+<img width="690" height="744" alt="Encapsulation Model Akun" src="https://github.com/user-attachments/assets/00c56289-d200-403b-a9aa-de5b3ce3aeaa" />
 
 <p align="justify">
 Konsep ini diterapkan pada class seperti <b>Akun</b>, <b>User</b>, dan <b>Admin</b> dengan menjadikan atribut bersifat <b>private</b> 
@@ -56,13 +56,15 @@ dan diakses melalui <i>getter</i> dan <i>setter</i> untuk menjaga keamanan data 
 <summary><b>2. Inheritance</b></summary>
 <br>
 
-<img width="700" height="450" alt="Inheritance" src="https://github.com/user-attachments/assets/0e9f35a1-0b25-4d3b-8b1a-9d01f67ff86b" />
-<br>
+<img width="836" height="347" alt="Admin ex Akun" src="https://github.com/user-attachments/assets/6b9c75fd-8efc-48fe-8a6d-981a69c54161" />
 
-<img width="700" height="450" alt="Admin ex Akun" src="https://github.com/user-attachments/assets/bf536a93-01f9-4b50-939b-67f09e9aaf17" />
-<br>
 
-<img width="700" height="450" alt="User ex Akun" src="https://github.com/user-attachments/assets/3c34367a-36b9-4c22-b7a0-97b80f06f8b5" />
+<img width="326" height="198" alt="Struktur Inherit keseluruhan" src="https://github.com/user-attachments/assets/49110f96-1893-46ea-bed5-2521f472f098" />
+
+
+<img width="321" height="88" alt="Struktur inherit" src="https://github.com/user-attachments/assets/b2bf4426-bb9c-4689-8eee-524e837757fd" />
+
+<img width="849" height="364" alt="User ex Akun" src="https://github.com/user-attachments/assets/2e034fa6-7727-4888-bb4a-d1039d4f178a" />
 
 <p align="justify">
 Class <b>Admin</b> dan <b>User</b> mewarisi atribut dan method dari <b>Akun</b>.  
@@ -76,7 +78,8 @@ tidak perlu ditulis ulang di setiap class, menjadikan struktur kode lebih efisie
 <summary><b>3. Polymorphism</b></summary>
 <br>
 
-<img width="700" height="450" alt="Polymorphism AkunDao" src="https://github.com/user-attachments/assets/f9da1e5e-dde4-44b0-8de3-9a67bfb2077f" />
+<img width="823" height="572" alt="Polymorphism AkunDao" src="https://github.com/user-attachments/assets/49f609cc-20ac-46be-b724-057e1e5f9e7d" />
+
 
 <p align="justify">
 Konsep <b>Polymorphism</b> diterapkan pada class <b>AkunDao</b> yang melakukan <i>override</i> terhadap method <code>save()</code> 
@@ -91,17 +94,18 @@ seperti validasi email ganda sebelum penyimpanan.
 <summary><b>4. Abstraction</b></summary>
 <br>
 
-<img width="700" height="450" alt="Abstraction BaseDao" src="https://github.com/user-attachments/assets/90f31631-b2c5-4af2-b14c-b96200982ff4" />
+<img width="762" height="803" alt="Abstract Class BaseDao" src="https://github.com/user-attachments/assets/ab8d0be8-4617-4c6b-954b-f50c7ac5d39c" />
+
 <br>
 
-<img width="700" height="450" alt="Abstract Class BaseDao" src="https://github.com/user-attachments/assets/a1b7f861-9670-4d09-b0b2-9c04c877dc2e" />
+<img width="846" height="677" alt="AkunDao ex BaseDao" src="https://github.com/user-attachments/assets/b5a415a8-433d-466a-b760-d05b55bb4ed9" />
+
 
 <p align="justify">
 Konsep <b>Abstraction</b> diterapkan melalui class abstrak <b>BaseDao</b>.  
 Class ini menyediakan logika dasar CRUD yang dapat digunakan ulang oleh semua class turunan DAO 
 tanpa harus menulis ulang logika yang sama.  
-Hal ini membuat sistem lebih efisien dan mudah dikelola.
-</p>
+Hal ini membuat sistem lebih efisien dan mudah dikelola.</p>
 
 </details>
 
@@ -109,10 +113,19 @@ Hal ini membuat sistem lebih efisien dan mudah dikelola.
 <summary><b>5. Interface</b></summary>
 <br>
 
-<img width="700" height="450" alt="InterfaceDao" src="https://github.com/user-attachments/assets/6cbfc495-935d-4e79-85a5-6e163d293c38" />
+<img width="461" height="255" alt="Code Interface" src="https://github.com/user-attachments/assets/c8d4c366-0e8a-413c-bc71-a9ec9aa04ece" />
+
 <br>
 
 <img width="700" height="450" alt="Implements Interface" src="https://github.com/user-attachments/assets/43da9a1e-0d92-4c04-a4f4-3d4e540ea28a" />
+
+<img width="663" height="817" alt="Impelemnts Interface di Basedao" src="https://github.com/user-attachments/assets/74ba0796-09de-4b5d-9ceb-1ef11f273ed3" />
+
+<img width="790" height="789" alt="Implements Interface di BaseDao" src="https://github.com/user-attachments/assets/ef1a6b7b-480a-4a3f-94b7-e13561fc68fe" />
+
+<img width="330" height="25" alt="Screenshot 2025-11-04 173645" src="https://github.com/user-attachments/assets/53c8d292-4cca-484a-8220-d63c39e05dbe" />
+
+<img width="323" height="154" alt="Struktur implements" src="https://github.com/user-attachments/assets/16e58b03-a69f-4c85-9617-e30118087946" />
 
 <p align="justify">
 Konsep <b>Interface</b> diterapkan pada file <b>InterfaceDao.java</b> 
